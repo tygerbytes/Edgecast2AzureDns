@@ -10,8 +10,15 @@ $edgecastToken = Read-Host -Prompt "Edgecast token"
 $azureSubscriptionId = Read-Host -Prompt "Azure Subscription Id"
 $azureResourceGroupName = Read-Host -Prompt "Resource Group"
 
-.\MigrateZones.ps1 -EdgeCastCustomerId $edgecastcustid -EdgeCastToken $edgecasttoken -AzureSubscriptionId $azureSubscriptionId -AzureResourceGroupName $azureResourceGroupName -KillAndFill -ZoneNames "fakezone.com"
+.\MigrateZones.ps1 -EdgeCastCustomerId $edgecastcustid `
+    -EdgeCastToken $edgecasttoken `
+    -AzureSubscriptionId $azureSubscriptionId `
+    -AzureResourceGroupName $azureResourceGroupName `
+    -KillAndFill `
+    -ZoneNames "fakezone.com"
 ```
+
+![demo](demo.mp4)
 
 ## Requirements
 

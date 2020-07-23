@@ -274,3 +274,5 @@ foreach ($edgecastZone in $edgecastZones) {
         Write-Line "⚠ SRV records not yet supported by this script ($($srv.Name))" -Color Yellow
     }
 }
+
+Write-Host "`nALL DONE!`n" -ForegroundColor Green
