@@ -18,7 +18,7 @@ $azureResourceGroupName = Read-Host -Prompt "Resource Group"
     -ZoneNames "fakezone.com"
 ```
 
-![demo](demo.mp4)
+![demo](demo.gif)
 
 ## Requirements
 
